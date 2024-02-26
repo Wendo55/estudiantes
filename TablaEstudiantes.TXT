@@ -1,0 +1,23 @@
+CREATE TABLE Alumnos (
+  CodAlumno int(5) NOT NULL default '0',
+  NomAlumno varchar(50) NOT NULL default '',
+  ApeAlumno varchar(50) NOT NULL default '',
+  AulaAlumno char(1) NOT NULL default '',
+  NotaP1 	int(2) NOT NULL default '0',
+  NotaP2 	int(2) NOT NULL default '0',
+  NotaP3 	int(2) NOT NULL default '0',
+  NotaEP 	int(2) NOT NULL default '0',
+  NotaEF 	int(2) NOT NULL default '0',
+  PRIMARY KEY  (CodAlumno)
+);
+
+INSERT INTO Alumnos VALUES (12451, 'Alumno1', 'Alumno1', 'A', 10, 12, 8, 15, 18);
+INSERT INTO Alumnos VALUES (12452, 'Alumno2', 'Alumno2',  'B', 8, 12, 4, 14, 20);
+INSERT INTO Alumnos VALUES (12453, 'Alumno3', 'Alumno3', 'C', 15, 14, 5, 13, 17);
+INSERT INTO Alumnos VALUES (12454, 'Alumno4', 'Alumno4', 'A', 12, 17, 5, 11, 14);
+INSERT INTO Alumnos VALUES (12455, 'Alumno5', 'Alumno5', 'E', 13, 19, 8, 10, 10);
+INSERT INTO Alumnos VALUES (12456, 'Alumno6', 'Alumno6', 'B', 18, 9, 8, 13, 16);
+INSERT INTO Alumnos VALUES (12457, 'Alumno7', 'Alumno7', 'D', 17, 17, 6, 14, 20);
+INSERT INTO Alumnos VALUES (12458, 'Alumno8', 'Alumno8', 'B', 19, 13, 5, 15, 19);
+INSERT INTO Alumnos VALUES (12459, 'Alumno9', 'Alumno9', 'A', 20, 5, 10, 16, 17);
+INSERT INTO Alumnos VALUES (12460, 'Alumno10', 'Alumno10', 'C', 18, 4, 19, 9, 12);
